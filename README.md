@@ -48,10 +48,18 @@ I learned to optimally apply the order of the elements in the html, the use of f
 
 ```css
 @media only screen and (max-width: 700px)
-
 ```
 
 to modify the web page to the mobile format.
+
+Using the picture element instead of img tag with the multiple images for different device
+
+```html
+<picture>
+      <source media="(max-width: )" srcset="">
+      <img src="" alt="">
+    </picture>
+```
 
 ## Author
 
